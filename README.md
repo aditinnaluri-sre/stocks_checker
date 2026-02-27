@@ -5,6 +5,7 @@ A web-based dashboard designed to identify stock trends using the Cumulative Ave
 **🎥 Strategy Reference:** Watch the Strategy on YouTube: https://www.youtube.com/watch?v=hLYGIhMYO7M&t=1492s
 
 **🚀 Features**
+
 Automated Data Fetching: Pulls real-time NSE data via Yahoo Finance.
 
 Smart Signal Logic: Calculates 10-day cumulative averages to generate BUY or AVOID signals.
@@ -41,6 +42,7 @@ Track the Recovery: It analyzes all data points from that high-date to the curre
 **Signal Generation:**
 
 BUY / HOLD: If the current price is above the 10-day cumulative average.
+
 AVOID / HOLD: If the current price is below the 10-day cumulative average.
 
 **⚖️ Disclaimer**
