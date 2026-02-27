@@ -15,12 +15,17 @@ Excel-Style UI: Clean, grid-based dashboard for easy data visualization.
 Custom Watchlist: Monitors your personal holdings via an external Excel file.
 
 **🛠️ Installation & Setup**
+
 1. Prerequisites
+   
 Ensure you have Python installed. You will need to install the following dependencies. Note that curl_cffi is required to prevent Yahoo Finance from blocking your requests.
 
-Bash
-pip install streamlit yfinance pandas curl_cffi openpyxl
+Bash 
+
+**pip install streamlit yfinance pandas curl_cffi openpyxl**
+
 2. Configuration
+
 Clone or download this repository to your local machine.
 
 Open the stocks.xlsx file.
@@ -28,13 +33,17 @@ Open the stocks.xlsx file.
 Add the stock symbols you wish to monitor (use the .NS suffix for NSE stocks, e.g., BAJFINANCE.NS).
 
 3. Running the App
+
 Navigate to the project folder in your terminal and run:
 
 Bash
-streamlit run app.py
+
+**streamlit run app.py**
+
 The app will automatically launch in your default web browser (usually at http://localhost:8501).
 
 **📊 How it Works**
+
 Identify the Peak: The tool finds the highest price of the stock in the last 365 days.
 
 Track the Recovery: It analyzes all data points from that high-date to the current date.
